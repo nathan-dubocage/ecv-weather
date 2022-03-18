@@ -1,0 +1,13 @@
+.animate-slide {
+	animation: slide 5s ease-in infinite alternate;
+}
+
+@keyframes slide {
+	0% {
+		transform: translateX(-30px);
+	}
+
+	100% {
+		transform: translateX(30px);
+	}
+}
